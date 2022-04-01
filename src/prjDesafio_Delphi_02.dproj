@@ -166,14 +166,15 @@
         </DCCReference>
         <DCCReference Include="View_ProdutoReceita\View_ProdutoReceita.Controller.pas"/>
         <DCCReference Include="View_ProdutoReceita\View_ProdutoReceita.DAO.pas"/>
-        <None Include="..\docs\cliente.sql"/>
-        <None Include="..\docs\pedidovenda.sql"/>
-        <None Include="..\docs\pedidovendaitem.sql"/>
-        <None Include="..\docs\produto.sql"/>
-        <None Include="..\docs\tecnicoagricola.sql"/>
-        <None Include="..\docs\receita.sql"/>
-        <None Include="..\docs\receitaitem.sql"/>
-        <None Include="..\docs\VIEW_PRODUTORECEITA.sql"/>
+        <None Include="..\docs\0 - desafio_delphi_02.SQL"/>
+        <None Include="..\docs\1 - cliente.sql"/>
+        <None Include="..\docs\2 - produto.sql"/>
+        <None Include="..\docs\3 - tecnicoagricola.sql"/>
+        <None Include="..\docs\4 - pedidovenda.sql"/>
+        <None Include="..\docs\5 - pedidovendaitem.sql"/>
+        <None Include="..\docs\6 - receita.sql"/>
+        <None Include="..\docs\7 - receitaitem.sql"/>
+        <None Include="..\docs\8 - VIEW_PRODUTORECEITA.sql"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -196,31 +197,25 @@
                 </Source>
             </Delphi.Personality>
             <Deployment Version="3">
-                <DeployFile LocalName="..\docs\pedidovenda.sql" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="..\docs\1 - cliente.sql" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\docs\pedidovendaitem.sql" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="..\docs\2 - produto.sql" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\docs\tecnicoagricola.sql" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="..\docs\3 - tecnicoagricola.sql" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\docs\produto.sql" Configuration="Debug" Class="ProjectFile">
-                    <Platform Name="Win32">
-                        <RemoteDir>.\</RemoteDir>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="..\docs\cliente.sql" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="..\docs\4 - pedidovenda.sql" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -232,19 +227,31 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\docs\receitaitem.sql" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="..\docs\0 - desafio_delphi_02.SQL" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\docs\VIEW_PRODUTORECEITA.sql" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="..\docs\6 - receita.sql" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\docs\receita.sql" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="..\docs\8 - VIEW_PRODUTORECEITA.sql" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\docs\5 - pedidovendaitem.sql" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\docs\7 - receitaitem.sql" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
